@@ -1,6 +1,6 @@
-<p align="left">
+<p align="center">
   <img width=750px src="https://user-images.githubusercontent.com/114951279/204366364-9a8cb798-d43a-4ac4-92e3-a85d3a2c3c19.png">
-  <img src="https://user-images.githubusercontent.com/114951279/204366376-e01c207c-b4bb-42ea-8091-562245c6df0e.png" width="200px">
+  <img src="https://user-images.githubusercontent.com/114951279/204366376-e01c207c-b4bb-42ea-8091-562245c6df0e.png" width="250px">
 </p>
 <br>
 
@@ -42,4 +42,20 @@ A Local File Sharing Web Application. Have Better speed, Better performance , Ea
   $ pip3 install -r requirements.txt
   $ clear
   $ python3 app.py -h
+  ```
+  <br>
+  
+## Overview
+```
+usage: app.py [options]
+
+File Sharing Web Application
+
+options:
+  -h, --help            show this help message and exit
+  -p [PORT], --port [PORT]
+                        Define Network Port
+  -path [PATH], --set-path [PATH]
+                        Set File Path
+  -v, --version         Print Version
   ```
