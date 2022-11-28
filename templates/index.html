@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiLocalShare</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+    <div class="box-1">
+        <div class="box-2">
+            <div class="box-3">
+                <div class="box-3sub"></div>
+                <h1>Upload Your FILES Through Local Server</h1>
+            </div>
+            <div class="box-4">
+                <form class="form" action="/" method="POST" enctype="multipart/form-data" accept-charset="utf-8">
+                    <div class="upload-div">
+                        <p>
+                            <label for="upfile" class="upload" id="choose">Upload Files</label>
+                        </p>
+                        <input type="file" multiple name="fileup" id="upfile">
+                    </div>
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+            </div>
+            <div class="box-5">
+                <div class="box-5sub"></div>
+                <p class="short_des">Welcome To InferiorAK's MiLocalShare. It's a File Sharing System through Local
+                    Server in your Device<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        InferiorAK &copy;2022<br>All Rights Reserved
+    </div>
+</body>
+
+</html>
